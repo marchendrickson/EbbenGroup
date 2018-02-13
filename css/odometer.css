@@ -14,10 +14,11 @@ margin-bottom: -10px;
   display:inline-block;
   margin-top: 50px;
   align-items: center;
+  max-width:270px;
 }
 
 .digit {
-  margin: -0.5vw;
+  float:left;
   display: inline-block;
   height: 1.5em;
   width: 0.6em;
@@ -25,7 +26,7 @@ margin-bottom: -10px;
 }
 
 .punc {
-    margin: -0.5vw;
+  float:left;
   display: inline-block;
   height: 1.5em;
   width: 0.15em;
