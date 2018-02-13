@@ -962,7 +962,7 @@ transform: scale(1, 1);
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 10px calc(46% - 50px);
     position: absolute;
     top: 0;
