@@ -950,6 +950,12 @@ transform: scale(1, 1);
 
 /*Video Play Button*/
 
+@media only screen and (max-width:600px){
+  .video-overlay-play-button{
+    display:none;
+  }
+}
+
 
 .video-overlay-play-button {
     box-sizing: border-box;
