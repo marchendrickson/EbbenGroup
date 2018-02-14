@@ -593,6 +593,8 @@ background-position: center;
 transform: scale(-1, 1);
 }
 
+
+
  .content-wrapper:hover .backward_text{
    -moz-transform: scale(1, 1);
 -webkit-transform: scale(1, 1);
