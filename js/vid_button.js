@@ -29,3 +29,9 @@ var videoPlayButton,
 	}
 
 videoMethods.renderVideoPlayButton()
+
+
+var video = document.querySelector('video');
+video.addEventListener('ended', function() {
+  video.load();
+});
