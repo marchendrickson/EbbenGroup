@@ -192,4 +192,9 @@
     padding-bottom: 30px;
   }
 }
-
+@media screen and (max-width:800px){
+	.carousel{
+		height:100%;
+		width:auto;
+	}
+}

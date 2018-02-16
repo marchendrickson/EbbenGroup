@@ -13,8 +13,7 @@ margin-bottom: -10px;
   font-weight: 400;
   display:inline-block;
   margin-top: 50px;
-  align-items: center;
-  max-width:400px;
+
 }
 
 .digit {
@@ -22,13 +21,15 @@ margin-bottom: -10px;
   height: 1.5em;
   width: 0.6em;
   overflow: hidden;
+  margin:-.5vw;
 }
 
 .punc {
   display: inline-block;
-  height: 1.5em;
+  height: 1.3em;
   width: 0.15em;
   overflow: hidden;
+  margin:-0.5vw;
 }
 
 .result-type {
@@ -39,7 +40,7 @@ margin-bottom: -10px;
 .per {
   margin: -0.5vw;
   display: inline-block;
-  height: 1.5em;
+  height: 1.4em;
   width: 0.75em;
   overflow: hidden;
 }

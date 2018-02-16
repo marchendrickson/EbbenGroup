@@ -561,10 +561,12 @@ background-position: center;
 .about .background:nth-child(5) {
   background-color: #74b565;
 }
+/*----THEY CHANGE THEIR MIND ALOT AND IM SICK OF DELETING THINGS AND THEN CODING THEM AGAIN
 .about .background:nth-child(6) {
   background-color: #ffffff;
 }
-.about .background:nth-child(7) {
+----*/
+.about .background:nth-child(6) {
   background-color: #2f8bd9;
   background-image: url(../img/layout/eg_pattern.png);
 }
@@ -845,10 +847,7 @@ transform: scale(1, 1);
   margin-top: 30px;
 }
 
-.carousel{
-  height: 100vh;
-  min-width: auto;
-}
+
 
 @media screen and (max-width:1000px){
   .about #video-background{
