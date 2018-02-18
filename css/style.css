@@ -158,10 +158,10 @@ h6 {
   position:relative;
 }
 
-@media screen and (min-width:1400px){
+@media screen and (max-width:600px){
   .case-study-video video{
-    max-width:75%;
-    max-height:70vh;
+    height:100%;
+    width:auto;
   }
 }
 
@@ -236,6 +236,9 @@ background-position: center;
     }
     .background h4{
       font-size: 2em;
+    }
+    .casestudy_title{
+      margin-top:30vh;
     }
 }
 
@@ -841,13 +844,6 @@ transform: scale(1, 1);
           transform: translateY(15vh);
 }
 
-#carousel-wrap{
-  min-width: 100%;
-  min-height:75vh;
-  margin-top: 30px;
-}
-
-
 
 @media screen and (max-width:1000px){
   .about #video-background{
@@ -1391,10 +1387,21 @@ margin-right: auto !important;
   .flip-container,
   .front,
   .back{
-    width:193.3px;
-    height:236.66px;
+    width:128.86px;
+    height:157.77px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .back img{
+    height:40px;
+  }
+  .back h2{
+    margin-top:5px;
+    font-size:15px;
+  }
+
+  .back .para-white{
+  color:black;
   }
 }
 /*-----END PEOPLE-----*/
@@ -1468,6 +1475,7 @@ margin-right: auto !important;
   width: auto;
   padding-top: 16px;
 }
+
 
 /*************
 ## Required ##

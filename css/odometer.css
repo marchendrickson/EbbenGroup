@@ -200,3 +200,9 @@ margin-bottom: -10px;
 .odometer.odometer-auto-theme .odometer-value, .odometer.odometer-theme-default .odometer-value {
   text-align: center;
 }
+
+@media only screen and (max-width:700px){
+  .odometer{
+    font-size:20px;
+  }
+}

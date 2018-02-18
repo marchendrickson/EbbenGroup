@@ -12,7 +12,7 @@
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  width:100%;
+/*  width:100%;*/
   height: auto;
 }
 .carousel {
@@ -196,5 +196,7 @@
 	.carousel{
 		height:100%;
 		width:auto;
+		align-items: center;
 	}
+
 }
