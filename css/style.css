@@ -222,7 +222,7 @@ background-position: center;
 
 @media only screen and (max-width:600px){
 .casestudies{
-    font-size: 20px !important;
+    font-size: 15px !important;
   }
     .side-by-side img {
       min-width: 80%;
