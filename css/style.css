@@ -1366,13 +1366,14 @@ margin-right: auto !important;
   .flip-container,
   .front,
   .back{
+    margin:auto;
     width:193.3px;
     height:236.66px;
   }
-  .raw{
-    display:block;
-    margin:auto;
-  }
+}
+
+@media only screen and (max-width:950px){
+  .raw{display:block;}
 }
 
 @media only screen and (max-width:550px){
