@@ -1396,7 +1396,9 @@ margin-right: auto !important;
     font-size:15px;
     line-height: 1em;
   }
-
+  .no-display-vid{
+    display:none;
+  }
 }
 /*-----END PEOPLE-----*/
 
