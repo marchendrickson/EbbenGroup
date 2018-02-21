@@ -1298,6 +1298,7 @@ margin-right: auto !important;
 
 .flip-container:hover .flipper {
   transform: rotateY(180deg);
+  -webkit-tranform: rotateY(180deg);
 }
 
 .flip-container,
@@ -1314,7 +1315,9 @@ margin-right: auto !important;
 
 .flipper {
   transition: 0.9s;
+  -webkit-transition:0.9s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   position: relative;
 }
 /* making the the other side hidden while flipping */
@@ -1340,6 +1343,7 @@ margin-right: auto !important;
 
 .back {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   z-index:1;
 }
 
