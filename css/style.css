@@ -1298,7 +1298,7 @@ margin-right: auto !important;
 
 .flip-container:hover .flipper {
   transform: rotateY(180deg);
-  -webkit-tranform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container,
@@ -1325,6 +1325,7 @@ margin-right: auto !important;
 .front,
 .back {
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
