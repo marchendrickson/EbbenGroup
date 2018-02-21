@@ -1359,31 +1359,19 @@ margin-right: auto !important;
     line-height: 1.5;
 }
 
-@media only screen and (max-width:1200px) {
-  .flip-container,
-  .front,
-  .back {
-    width: 290px;
-    height: 355px;
-    line-height: 100px;
-    text-align: center;
-    font-size: 30px;
-  }
-  .back .para_white{
-    font-size: 15px;
-    line-height: 1;
-  }
-  .back h2{
-    font-size: 24px;
-  }
-}
 
-@media only screen and (max-width:768px){
+
+@media only screen and (max-width:1400px){
+
   .flip-container,
   .front,
   .back{
     width:193.3px;
     height:236.66px;
+  }
+  .raw{
+    display:block;
+    margin:auto;
   }
 }
 
@@ -1402,14 +1390,12 @@ margin-right: auto !important;
   .back img{
     height:40px;
   }
-  .back h2{
+  .back p, .back h2{
     margin-top:5px;
     font-size:15px;
+    line-height: 1em;
   }
 
-  .back .para-white{
-  color:black;
-  }
 }
 /*-----END PEOPLE-----*/
 
